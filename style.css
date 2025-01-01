@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Agdasima', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    background: url('images/background\ image.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.527);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+    /* opacity: 0.7; */
+    border-radius: 7px;
+}
+
+.search {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 10px;
+    color: black;
+    font-weight: 700px;
+}
+
+.search-icon {
+    margin-left: 5px;
+    background-color: white;
+    color: black;
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.temp {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.temp-image {
+    height: 150px;
+    width: 150px;
+    background: url('images/rain.png');
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    /* border: 1px solid black; */
+}
+
+.temp-value {
+    font-size: 50px;
+    color: white;
+}
+
+.city-name {
+    margin-top: -10px;
+    color: white;
+    font-size: 25px;
+}
+
+
+.temp-detail {
+    /* border: 1px solid black; */
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.humidity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.humi-img {
+    background: url('images/humidity.png');
+    background-size: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.humi-value {
+    font-size: 14px;
+}
+
+.windSpeed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ws-img {
+    background: url('images/wind.png');
+    background-size: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+
+.ws-value {
+    font-size: 14px;
+    
+}
